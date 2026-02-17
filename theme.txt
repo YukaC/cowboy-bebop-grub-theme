@@ -1,0 +1,160 @@
+# Global properties
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-font: "Fixedsys Regular 32"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Boot menu
++ boot_menu {
+  left = 15%
+  top = 30%
+  width = 70%
+  height = 55%
+  item_font = "Fixedsys Regular 32"
+  item_color = "#67d97a"
+  selected_item_color = "#ffffff"
+  item_height = 36
+  item_spacing = 4
+  item_icon_space = 12
+  item_pixmap_style = "item_*.png"
+  selected_item_pixmap_style = "selected_item_*.png"
+}
+
+# Decorative Cowboy Bebop quote
++ label {
+  left = 0
+  top = 82%
+  width = 100%
+  align = "center"
+  # DE
+  # text = "DU WIRST DIESE LAST TRAGEN."
+  # EN
+  text = "YOU'RE GONNA CARRY THAT WEIGHT."
+  # ES
+  # text = "VAS A CARGAR CON ESE PESO."
+  # FR
+  # text = "TU VAS PORTER CE POIDS."
+  # HU
+  # text = "VINNI FOGOD AZT A TERHET."
+  # IT
+  # text = "PORTERAI QUEL PESO."
+  # KO
+  # text = "그 무게를 짊어지게 될 거야."
+  # LV
+  # text = "TU NESĪSI ŠO NASTU."
+  # NO
+  # text = "DU VIL BÆRE DEN BYRDEN."
+  # PL
+  # text = "BĘDZIESZ DŹWIGAĆ TEN CIĘŻAR."
+  # PT
+  # text = "VOCÊ VAI CARREGAR ESSE PESO."
+  # RU
+  # text = "ТЫ ПОНЕСЁШЬ ЭТУ ТЯЖЕСТЬ."
+  # RUE
+  # text = "ПОНЕСЕШ ТОТ ТЯГАР."
+  # TR
+  # text = "O YÜKÜ TAŞIYACAKSIN."
+  # UA
+  # text = "ТИ ПОНЕСЕШ ЦЕЙ ТЯГАР."
+  # zh_CN
+  # text = "你将背负那份重量。"
+  # zh_TW
+  # text = "你將背負那份重量。"
+  color = "#67d97a"
+  font = "Fixedsys Regular 20"
+}
+
+# Countdown message
++ label {
+  left = 0
+  top = 86%
+  width = 100%
+  align = "center"
+  id = "__timeout__"
+  # DE
+  # text = "SESSION-START IN %d"
+  # EN
+  text = "SESSION START IN %d"
+  # ES
+  # text = "INICIO DE SESIÓN EN %d"
+  # FR
+  # text = "DÉBUT DE SESSION DANS %d"
+  # HU
+  # text = "MUNKAMENET INDUL %d MÚLVA"
+  # IT
+  # text = "INIZIO SESSIONE TRA %d"
+  # KO
+  # text = "세션 시작까지 %d"
+  # LV
+  # text = "SESIJAS SĀKUMS PĒC %d"
+  # NO
+  # text = "SESJONSTART OM %d"
+  # PL
+  # text = "START SESJI ZA %d"
+  # PT
+  # text = "INÍCIO DA SESSÃO EM %d"
+  # RU
+  # text = "НАЧАЛО СЕАНСА ЧЕРЕЗ %d"
+  # RUE
+  # text = "ПОЧАТОК СЕАНСУ ЧЕРЕЗ %d"
+  # TR
+  # text = "OTURUM BAŞLANGICINA %d"
+  # UA
+  # text = "ПОЧАТОК СЕАНСУ ЧЕРЕЗ %d"
+  # zh_CN
+  # text = "会话启动倒计时 %d"
+  # zh_TW
+  # text = "會話啟動倒數 %d"
+  color = "#67d97a"
+  font = "Fixedsys Regular 20"
+}
+
+# Navigation keys hint
++ label {
+  left = 0
+  top = 90%
+  width = 100%
+  align = "center"
+  # DE
+  # text = "↑/↓ - NAVIGIEREN    C - BEFEHL    ↵ - BESTÄTIGEN"
+  # EN
+  text = "↑/↓ - NAVIGATE    C - COMMAND    ↵ - CONFIRM"
+  # ES
+  # text = "↑/↓ - NAVEGAR    C - COMANDO    ↵ - CONFIRMAR"
+  # FR
+  # text = "↑/↓ - NAVIGUER    C - COMMANDE    ↵ - CONFIRMER"
+  # HU
+  # text = "↑/↓ - NAVIGÁCIÓ    C - PARANCS    ↵ - MEGERŐSÍTÉS"
+  # IT
+  # text = "↑/↓ - NAVIGARE    C - COMANDO    ↵ - CONFERMA"
+  # KO
+  # text = "↑/↓ - 탐색    C - 명령    ↵ - 확인"
+  # LV
+  # text = "↑/↓ - NAVIGĒT    C - KOMANDA    ↵ - APSTIPRINĀT"
+  # NO
+  # text = "↑/↓ - NAVIGER    C - KOMMANDO    ↵ - BEKREFT"
+  # PL
+  # text = "↑/↓ - NAWIGUJ    C - POLECENIE    ↵ - POTWIERDŹ"
+  # PT
+  # text = "↑/↓ - NAVEGAR    C - COMANDO    ↵ - CONFIRMAR"
+  # RU
+  # text = "↑/↓ - НАВИГАЦИЯ    C - КОМАНДА    ↵ - ПОДТВЕРДИТЬ"
+  # RUE
+  # text = "↑/↓ - НАВІҐАЦІЯ    C - КОМАНДА    ↵ - ПУДТВЕРДИТИ"
+  # TR
+  # text = "↑/↓ - GEZİN    C - KOMUT    ↵ - ONAYLA"
+  # UA
+  # text = "↑/↓ - НАВІГАЦІЯ    C - КОМАНДА    ↵ - ПІДТВЕРДИТИ"
+  # zh_CN
+  # text = "↑/↓ - 导航    C - 命令行    ↵ - 确认"
+  # zh_TW
+  # text = "↑/↓ - 導航    C - 命令行    ↵ - 確認"
+  color = "#67d97a"
+  font = "Fixedsys Regular 20"
+}
