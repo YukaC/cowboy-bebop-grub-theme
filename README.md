@@ -4,7 +4,7 @@ A Cowboy Bebop-inspired GRUB bootloader theme with Edward's terminal aesthetic â
 
 > Fork of [Fallout GRUB Theme](https://github.com/shvchk/fallout-grub-theme) by [shvchk](https://github.com/shvchk)
 
-![](background.png)
+![](demo.png)
 
 ### Features
 
