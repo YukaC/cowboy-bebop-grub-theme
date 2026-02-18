@@ -4,7 +4,7 @@ A Cowboy Bebop-inspired GRUB bootloader theme with Edward's terminal aesthetic â
 
 > Fork of [Fallout GRUB Theme](https://github.com/shvchk/fallout-grub-theme) by [shvchk](https://github.com/shvchk)
 
-![](demo.png)
+![](demo.jpg)
 
 ### Features
 
@@ -23,7 +23,11 @@ A Cowboy Bebop-inspired GRUB bootloader theme with Edward's terminal aesthetic â
   - Download install script:
 
     ```sh
+    # Using wget
     wget -P /tmp https://github.com/YukaC/cowboy-bebop-grub-theme/raw/master/install.sh
+
+    # Or using curl
+    curl -fsSL -o /tmp/install.sh https://github.com/YukaC/cowboy-bebop-grub-theme/raw/master/install.sh
     ```
 
   - Review it at `/tmp/install.sh`
@@ -37,10 +41,22 @@ A Cowboy Bebop-inspired GRUB bootloader theme with Edward's terminal aesthetic â
 - **Easier, less secure way** â€” just download and run install script:
 
   ```sh
+  # Using wget
   wget -O - https://github.com/YukaC/cowboy-bebop-grub-theme/raw/master/install.sh | bash
+
+  # Or using curl
+  curl -fsSL https://github.com/YukaC/cowboy-bebop-grub-theme/raw/master/install.sh | bash
   ```
 
 <br>
+
+The installer will prompt you to select a **language** and a **screen resolution** interactively.
+
+![Language selection](installer-language-select.png)
+
+![Resolution selection](installer-resolution-select.png)
+
+![Installation output](installer-output.png)
 
 You can use `--lang` option to select language and disable interactive language selection, e.g.:
 
@@ -55,6 +71,18 @@ wget -O- https://github.com/YukaC/cowboy-bebop-grub-theme/raw/master/install.sh 
 ```
 
 Full list of languages see in `INSTALLER_LANGS` variable in [install.sh](install.sh)
+
+---
+
+### Uninstallation
+
+To remove the theme and restore default text-mode GRUB:
+
+```sh
+bash /tmp/install.sh --uninstall
+```
+
+This will remove the theme files, clean GRUB configuration, and restore the default text terminal.
 
 ---
 
