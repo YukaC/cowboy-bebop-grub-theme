@@ -1,0 +1,12 @@
+# CodeGraph local index
+.codegraph/
+
+# Environment and secrets
+.env
+.env.*
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*~
